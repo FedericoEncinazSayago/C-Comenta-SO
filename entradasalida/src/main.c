@@ -1,9 +1,6 @@
 #include "io.h"
 
 int main(int argc, char *argv[]) {
-    // name_interfaz = argv[1];
-    // config_path = argv[2];
-
     char* name_interfaz = readline("Nombre de interfaz: ");
     char* config_path = readline("Nombre del path: ");
 
